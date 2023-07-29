@@ -5,8 +5,8 @@ const About = () => {
 
     const windowSize = useWindowWidth();
 
-    const front_sm = "url(/front-sm.jpeg)";
-    const front_lg = "url(/front-lg.jpeg)";
+    const front_sm = "url(assets/front-sm.jpeg)";
+    const front_lg = "url(assets/front-lg.jpeg)";
     return (
       <section id="#about" className="w-screen h-screen">
         <div

@@ -60,7 +60,7 @@ const IntroSection = () => {
           ) : (
             <div className="relative logoToFadeInAndOut">
               <img
-                src="src/assets/yojan-logo.png"
+                src="assets/yojan-logo.png"
                 width={250}
                 height={250}
               ></img>
