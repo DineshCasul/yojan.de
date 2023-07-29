@@ -3,8 +3,8 @@ import { useWindowWidth } from "../utils/windowResize";
 const Contact = () => {
   const windowSize = useWindowWidth();
 
-  const front_sm = "url(src/assets/grid-images.jpeg)";
-  const front_lg = "url(src/assets/grid-images.jpeg)";
+  const front_sm = "url(/grid-images.jpeg)";
+  const front_lg = "url(/grid-images.jpeg)";
   return (
     <section id="#contact" className="w-screen h-screen">
       <div
