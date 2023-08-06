@@ -2,15 +2,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.scroller #contact {
-  scroll-snap-align: start;
-} 
-
-.scroller {
-  overflow-y: scroll;
-  scroll-snap-type: y mandatory;
-}
-
 .fade {
     top: 75px;
     left: 120px;

@@ -1,7 +1,7 @@
 .hiddenn {
  opacity: 0;
  transition: all 1s;
- transform: translateY(100%);
+ transform: translateY(90%);
 }
 
 .show {
@@ -12,5 +12,5 @@
 .overlayBox .hiddenn {
     opacity: 0;
     transition: all 2s;
-    transform: translateY(-100%);
+    transform: translateY(-90%);
 }

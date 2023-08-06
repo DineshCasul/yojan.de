@@ -5,17 +5,7 @@ import About from "./Components/About";
 import IntroSection from "./Components/IntroSection";
 import Contact from "./Components/Contact";
 
-function App() {
-  const [circleRender, setCircleRender] = useState(false);
-  const renderCircles = () => {
-    return (
-      <>
-        <div key={4} id={"mouse"} className="circleMain " value="5"></div>
-        <div key={5} id={"mouse1"} className="circleMain " value="5"></div>
-        <div key={5} id={"mouse2"} className="circleMain " value="5"></div>
-      </>
-    );
-  };
+const App = () => {
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -27,13 +17,6 @@ function App() {
     };
   }, []);
 
-  useEffect(() => {
-    let timer2 = setTimeout(() => setCircleRender(true), 5000);
-
-    return () => {
-      clearTimeout(timer2);
-    };
-  }, []);
 
   useEffect(() => {
     const hiddenElements = document.querySelectorAll(".hiddenn");
@@ -49,15 +32,14 @@ function App() {
         entry.target.classList.remove("show");
       }
     });
-  }, {threshold : 0.9});
+  },{threshold:0.2});
 
   return (
     <>
       <div className="h-full w-full scroller">
-        {/* {circleRender && renderCircles()} */}
         <IntroSection />
         <About />
-        <Contact />
+        <Contact/>
       </div>
     </>
   );

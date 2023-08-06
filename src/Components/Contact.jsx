@@ -26,20 +26,20 @@ const Contact = () => {
             background:
               "linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%)",
           }}
-          className="bg-black hiddenn overlayBox w-screen h-screen absolute opacity-90 z-[-1]"
+          className="bg-black overlayBox w-screen h-screen absolute opacity-90 z-[-1]"
         ></div>
 
         <div
-          className={`flex flex-wrap ${
+          className={` z-1 flex flex-wrap ${
             windowSize == "s" ? "p-10px" : "p-[64px]"
-          }  z-1 overflow-hidden `}
+          }  overflow-hidden `}
         >
           <p
             className={` z-2 hiddenn ${
               windowSize == "s"
                 ? "text-[14px] px-[12px] "
                 : "text-[34px] px-[72px] "
-            } text-[36px] text-white`}
+            } text-white`}
           >
             Discover the world of architectural innovation with Yojan De, a
             dynamic brand co-founded by the visionary minds of Sooraj Sharma and
