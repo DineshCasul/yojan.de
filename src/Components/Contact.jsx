@@ -29,7 +29,7 @@ const Contact = () => {
           className="bg-black overlayBox w-screen h-screen absolute opacity-90 z-[-1]"
         ></div>
 
-        <div
+        {/* <div
           className={` z-1 flex flex-wrap ${
             windowSize == "s" ? "p-10px" : "p-[64px]"
           }  overflow-hidden `}
@@ -62,7 +62,7 @@ const Contact = () => {
             exceptional services in designing, interior designing, architecture,
             and 3D rendering.
           </p>
-        </div>
+        </div> */}
       </div>
     </section>
   );
