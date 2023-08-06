@@ -20,7 +20,7 @@ function App() {
   useEffect(() => {
     window.scrollTo(0, 0);
     let timer = setTimeout(() => {
-      window.scrollTo(0, window.outerHeight);
+      window.scrollTo(0, window.innerHeight);
     }, 8000);
     return () => {
       clearTimeout(timer);

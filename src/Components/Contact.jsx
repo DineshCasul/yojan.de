@@ -3,17 +3,17 @@ import { useWindowWidth } from "../utils/windowResize";
 const Contact = () => {
   const windowSize = useWindowWidth();
 
-  const front_sm = "url(assets/grid-images.jpeg)";
-  const front_lg = "url(assets/grid-images.jpeg)";
+  const front_sm = "url(assets/grid-images.png)";
+  const front_lg = "url(assets/grid-images.png)";
   return (
     <section id="#contact" className="w-screen h-screen">
       <div
         className="h-screen w-full absolute z-[-2]"
         style={{
-          backgroundAttachment: "fixed",
-          backgroundPosition: "center",
+          // backgroundAttachment: "fixed",
+          // backgroundPosition: "center",
           backgroundSize: "cover",
-          backgroundImage: `${windowSize == "s" ? front_sm : front_lg}`,
+          backgroundImage: front_lg,
         }}
       />
       <div

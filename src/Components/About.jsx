@@ -5,10 +5,11 @@ const About = () => {
 
     const windowSize = useWindowWidth();
 
-    const front_sm = "url(assets/front-sm.jpeg)";
-    const front_lg = "url(assets/front-lg.jpeg)";
+    const front_sm = "url(assets/front-sm.png)";
+    const front_lg = "url(assets/front-lg.png)";
     return (
       <section id="#about" className="w-screen h-screen">
+        <div className="flex h-full w-full items-center">
         <div
           className="h-screen w-full absolute z-[-2]"
           style={{
@@ -16,6 +17,8 @@ const About = () => {
             backgroundImage: `${windowSize == "s" ? front_sm : front_lg}`,
           }}
         />
+        </div>
+       
         <div
           className={`flex absolute ${
             windowSize == "s" ? "flex-col" : "flex-row"
