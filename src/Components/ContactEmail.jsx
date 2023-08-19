@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
-export const ContactEmail = ({ setIsSuccess = () => {} }) => {
+export const ContactEmail = ({ isSuccess, setIsSuccess = () => {} }) => {
   const form = useRef();
   const [formData, setFormData] = useState({
     from_name: "",
@@ -12,7 +12,7 @@ export const ContactEmail = ({ setIsSuccess = () => {} }) => {
     setTimeout(() => {
       setIsSuccess(null);
     }, 5000);
-  });
+  },[isSuccess]);
 
   const handleFormData = (e) => {
     const { name, value } = e.target;

@@ -1,6 +1,6 @@
 import { useWindowWidth } from "../utils/windowResize";
 import {ContactEmail} from './ContactEmail'
-const Contact = ({ setIsSuccess = () => {}}) => {
+const Contact = ({isSuccess, setIsSuccess = () => {}}) => {
   const windowSize = useWindowWidth();
 
   const front_sm = "url(assets/grid-images.png)";
@@ -12,7 +12,7 @@ const Contact = ({ setIsSuccess = () => {}}) => {
           windowSize == "s" ? "flex-col" : "flex-row"
         } h-screen w-full items-center justify-center z-1 overflow-hidden `}
       >
-          <ContactEmail setIsSuccess = {setIsSuccess }/>
+          <ContactEmail isSuccess={isSuccess} setIsSuccess = {setIsSuccess }/>
       </div>
     </section>
   );

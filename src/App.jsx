@@ -72,7 +72,7 @@ const App = () => {
       <div className="h-full w-full scroller">
         <IntroSection scrollPos={scrollPos} />
         <About />
-        <Contact setIsSuccess={setIsSuccess} />
+        <Contact isSuccess={isSuccess} setIsSuccess={setIsSuccess} />
       </div>
     </>
   );
