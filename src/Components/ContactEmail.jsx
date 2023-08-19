@@ -82,7 +82,7 @@ export const ContactEmail = ({ setIsSuccess = () => {} }) => {
           <div className="flex flex-col mb-3">
             {/* <label>Message</label> */}
             <textarea
-              placeholder="Write your thoughts here..."
+              placeholder="Write your queries here..."
               className="bg-skin appearance-none rounded w-full py-2 px-4 text-brown leading-tight focus:outline-none focus:bg-darkSkin"
               rows="6"
               cols="80"
@@ -93,19 +93,20 @@ export const ContactEmail = ({ setIsSuccess = () => {} }) => {
               required
             />
           </div>
-          <div className="flex items-center justify-center mt-[20px]">
+          <div className="flex items-center flex-col justify-center mt-[20px]">
             <button
-              className="text-black p-[10px] w-[30%] sm:w-[10%] sm:text-[18px] text-[14px] font-normal bg-skin rounded hover:bg-darkSkin"
+              className="text-black p-[4px] w-[30%] sm:w-[8%] sm:text-[18px] text-[14px] font-normal bg-skin rounded hover:bg-darkSkin"
               type="submit"
               value="Send"
             >
               Submit
             </button>
-            <span className="pl-[4px]">
+            <span className="pl-[4px] mt-[6px] flex items-center justify-center">
             or reach us on 
-            <a className="pointer hover:text-[green] font-bold"  rel="noopener noreferrer" href={'https://api.whatsapp.com/send?phone=09897210076'} target={'_blank'}> Whatsapp </a>
+            <a className="pointer hover:text-[green] font-bold ml-[6px]"  rel="noopener noreferrer" href={'https://api.whatsapp.com/send?phone=09897210076'} target={'_blank'}> Whatsapp 
+             </a>
+             <span><img className="ml-[4px]" style={{width:'14px'}} src="assets\whatsapp.png"/></span>
             </span>
-           
           </div>
         </form>
       </div>
