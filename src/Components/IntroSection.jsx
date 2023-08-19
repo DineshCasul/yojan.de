@@ -1,10 +1,6 @@
 import { useEffect, useState } from "react";
 
-// #F0E8D5
-// #703E32
-// #997337;
-//  black;
-const IntroSection = () => {
+const IntroSection = ({scrollPos}) => {
   const floatingWords = [
     "design.",
     "architecture.",
@@ -16,13 +12,13 @@ const IntroSection = () => {
   
 
   useEffect(() => {
-    if (currentImageIndex < 3) {
+    if (currentImageIndex < 3 && !scrollPos) {
       const timer = setInterval(() => {
         setCurrentImageIndex((prevIndex) => prevIndex + 1);
       }, 1500);
-
+   
       return () => clearInterval(timer);
-    } else return;
+    } else return setCurrentImageIndex(3);
   }, [currentImageIndex]);
 
   useEffect(()=>{

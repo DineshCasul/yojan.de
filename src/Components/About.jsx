@@ -7,9 +7,9 @@ const About = () => {
   const front_lg = "url(assets/front-lg.png)";
   return (
     <section id="#about" className="w-screen h-screen">
-      <div className="flex h-full w-full items-center">
+      <div className="flex bg-image h-full w-full items-center">
         <div
-          className="h-screen w-full absolute z-[-2]"
+          className=" h-screen w-full absolute z-[-2]"
           style={{
             backgroundSize: "cover",
             backgroundImage: `${windowSize == "s" ? front_sm : front_lg}`,
@@ -17,12 +17,12 @@ const About = () => {
         />
 
       <div
-        className={`flex absolute  ${
+        className={`flex absolute h-[80%] ${
           windowSize == "s" ? "flex-col" : "flex-row"
         } items-end justify-center z-1 overflow-hidden `}
       >
         <div
-          className={`flex flex-wrap ${
+          className={`flex flex-wrap items-end  ${
             windowSize == "s" ? "p-10px" : "p-[64px]"
           }  z-1 `}
         >
@@ -30,7 +30,7 @@ const About = () => {
             className={` hiddenn ${
               windowSize == "s"
                 ? "text-12px px-[12px] "
-                : "text-[34px] px-[72px] "
+                : "text-[24px] px-[72px] "
             } text-white `}
           >
             Discover the world of architectural innovation with Yojan De, a
