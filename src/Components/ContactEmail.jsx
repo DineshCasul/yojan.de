@@ -93,7 +93,7 @@ export const ContactEmail = ({ setIsSuccess = () => {} }) => {
               required
             />
           </div>
-          <div className="flex items-center flex-col justify-center mt-[20px]">
+          <div className="flex items-center flex-col justify-center mt-[5px]">
             <button
               className="text-black p-[4px] w-[30%] sm:w-[8%] sm:text-[18px] text-[14px] font-normal bg-skin rounded hover:bg-darkSkin"
               type="submit"
@@ -101,7 +101,7 @@ export const ContactEmail = ({ setIsSuccess = () => {} }) => {
             >
               Submit
             </button>
-            <span className="pl-[4px] mt-[6px] flex items-center justify-center">
+            <span className="pl-[4px] mt-[6px] flex items-center` justify-center">
             or reach us on 
             <a className="pointer hover:text-[green] font-bold ml-[6px]"  rel="noopener noreferrer" href={'https://api.whatsapp.com/send?phone=09897210076'} target={'_blank'}> Whatsapp 
              </a>
