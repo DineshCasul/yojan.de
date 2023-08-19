@@ -7,7 +7,7 @@ export const ContactEmail = ({setIsSuccess = ()=>{}}) => {
   useEffect(() => {
     setTimeout(() => {
       setIsSuccess(null);
-    }, 2000);
+    }, 5000);
   });
 
   const sendEmail = (e) => {
