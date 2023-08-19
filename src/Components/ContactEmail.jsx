@@ -101,6 +101,11 @@ export const ContactEmail = ({ setIsSuccess = () => {} }) => {
             >
               Submit
             </button>
+            <span className="pl-[4px]">
+            or reach us on 
+            <a className="pointer hover:text-[green] font-bold"  rel="noopener noreferrer" href={'https://api.whatsapp.com/send?phone=09897210076'} target={'_blank'}> Whatsapp </a>
+            </span>
+           
           </div>
         </form>
       </div>
