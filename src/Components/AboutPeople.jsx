@@ -37,7 +37,7 @@ const AboutPeople = () => {
               </div>
             </div>
             <div className=" flex items-center w-full justify-center">
-              <h1 className="font-normal sm:w-2/3 w-full text-center just text-white sm:text-[20px] mt-[10px] text-[16px] font-secondaryFamily">
+              <h1 className="font-light sm:w-2/3 w-full text-center just text-white sm:text-[20px] mt-[10px] text-[16px] font-secondaryFamily">
                 Sooraj Sharma's journey redefines architectural boundaries. His
                 designs encapsulate innovation, transforming concepts into
                 remarkable structures. He's a guiding force in design.
@@ -67,7 +67,7 @@ const AboutPeople = () => {
               </div>
             </div>
             <div className=" flex items-center justify-center ">
-              <h1 className="font-normal sm:w-2/3 w-full text-center just text-white mt-[10px] sm:text-[20px] text-[16px] secondaryFamily">
+              <h1 className="font-light sm:w-2/3 w-full text-center just text-white mt-[10px] sm:text-[20px] text-[16px] secondaryFamily">
                 Srishti Vats infuses spaces with her gift for interior design.
                 Her understanding of form and function creates captivating,
                 soulful environments. She orchestrates experiences.

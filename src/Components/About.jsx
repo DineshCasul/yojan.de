@@ -31,7 +31,7 @@ const About = () => {
                 ? "text-12px px-[12px] "
                 : "text-[24px] px-[72px] "
             } text-white `}>
-          Yojan De: Where Vision Meets Reality
+          Where Vision Meets Reality
           </h1>
           <p
             className={`mt-[20px] font-light hiddenn ${
