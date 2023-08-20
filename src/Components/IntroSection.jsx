@@ -56,7 +56,7 @@ const IntroSection = ({scrollPos}) => {
           ) : (
             <div className="relative logoToFadeInAndOut">
               <img
-                src="assets/yojan-logo.png"
+                src="assets/yojan-logo-fin.png"
                 width={250}
                 height={250}
               ></img>
