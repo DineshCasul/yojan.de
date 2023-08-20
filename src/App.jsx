@@ -6,6 +6,7 @@ import About from "./Components/About";
 import IntroSection from "./Components/IntroSection";
 import Contact from "./Components/Contact";
 import SubmitPopup from "./Components/submitPopup";
+import AboutPeople from "./Components/AboutPeople";
 
 const App = () => {
   const [scrollPos, setScrollPos] = useState(false);
@@ -72,6 +73,7 @@ const App = () => {
       <div className="h-full w-full scroller">
         <IntroSection scrollPos={scrollPos} />
         <About />
+        <AboutPeople />
         <Contact isSuccess={isSuccess} setIsSuccess={setIsSuccess} />
       </div>
     </>

@@ -26,6 +26,13 @@ const About = () => {
             windowSize == "s" ? "p-10px" : "p-[64px]"
           }  z-1 `}
         >
+          <h1  className={` font-bold hiddenn ${
+              windowSize == "s"
+                ? "text-12px px-[12px] "
+                : "text-[24px] px-[72px] "
+            } text-white `}>
+          Yojan De: Where Vision Meets Reality
+          </h1>
           <p
             className={` hiddenn ${
               windowSize == "s"
@@ -33,12 +40,7 @@ const About = () => {
                 : "text-[24px] px-[72px] "
             } text-white `}
           >
-            Discover the world of architectural innovation with Yojan De, a
-            dynamic brand co-founded by the visionary minds of Sooraj Sharma and
-            Srishti Vats in the picturesque town of Roorkee. Since our inception
-            in 2022, we have been transforming dreams into reality through our
-            exceptional services in designing, interior designing, architecture,
-            and 3D rendering.
+           Yojan De is a testament to the fusion of architectural ingenuity and artistic finesse. At its helm are two exceptional minds, Sooraj Sharma and Srishti Vats, who are driven by an unwavering passion for design and an unrelenting pursuit of excellence.
           </p>
         </div>
       </div>
