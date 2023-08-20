@@ -8,7 +8,7 @@ const AboutPeople = () => {
   return (
     <section
       id="#aboutPeople"
-      className="bg-black w-screen h-screen sm:p-[30px] p-[0px]"
+      className="bg-black w-screen h-[130%] sm:p-[30px] p-[0px]"
     >
       <div className="flex flex-col h-full w-full p-[30px] items-center">
         <h1 className="sm:text-[100px] text-[40px] text-white font-bold font-mainFamily">
@@ -31,7 +31,7 @@ const AboutPeople = () => {
                 <h1 className="font-bold text-white mt-[10px] text-[24px]">
                   Sooraj Sharma
                 </h1>
-                <div className=" text-skin text-center mt-[10px] text-[12px]">
+                <div className=" text-skin text-center mt-[10px] text-[10px]">
                   <p className="w-full">
                     Bachelors in Architecture (B.Arch) <br/>DIT University, UTU -
                     2017 <br/>Masters in Disaster Mitigation & Management (M.Tech)<br/>  IIT Roorkee - 2021 
@@ -60,7 +60,7 @@ const AboutPeople = () => {
                 <h1 className="font-bold text-white mt-[10px] text-[24px]">
                   Srishti Vats
                 </h1>
-                <div className="w text-skin text-center mt-[10px] text-[12px]">
+                <div className="w text-skin text-center mt-[10px] text-[10px]">
                   <p className="w-full">
                     Bachelors in Architecture (B.Arch) <br/>DIT University, UTU -
                     2017 <br/> International Masters in Interior Architecture and
