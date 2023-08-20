@@ -16,7 +16,8 @@ export default {
       lightbrown: "#997337",
     },
     fontFamily: {
-      mainFamily : ['Karla', 'sans-serif']
+      mainFamily : ['Karla', 'sans-serif'],
+      secondaryFamily : ['Roboto', 'sans-serif']
     }
   },
   plugins: [],

@@ -34,7 +34,7 @@ const About = () => {
           Yojan De: Where Vision Meets Reality
           </h1>
           <p
-            className={`mt-[20px] hiddenn ${
+            className={`mt-[20px] font-light hiddenn ${
               windowSize == "s"
                 ? "text-12px px-[12px] "
                 : "text-[24px] px-[72px] "

@@ -11,12 +11,9 @@ const AboutPeople = () => {
       className="bg-black w-screen h-[130%] sm:p-[30px] p-[0px]"
     >
       <div className="flex flex-col h-full w-full p-[30px] items-center">
-        <h1 className="sm:text-[100px] text-[40px] text-white font-bold font-mainFamily">
+        <h1 className="sm:text-[100px] text-[40px] text-white font-bold font-secondaryFamily">
           Yojan.de
         </h1>
-        {/* <h1 className="sm:text-[20px] text-[10px] text-white font-bold font-mainFamily">
-          is
-        </h1> */}
         <div className="founder-details sm:mt-[30px] mt-[10px] sm:flex-row flex-col flex items-center justify-center w-full">
           <div className="founder-sooraj flex w-full items-center justify-center flex-col">
             <div className="a flex flex-col items-center justify-center sm:h-full h-auto">
@@ -31,7 +28,7 @@ const AboutPeople = () => {
                 <h1 className="font-bold text-white mt-[10px] text-[24px]">
                   Sooraj Sharma
                 </h1>
-                <div className=" text-skin text-center mt-[10px] text-[10px]">
+                <div className="font-light text-skin text-center mt-[10px] sm:text-[14px] text-[10px]">
                   <p className="w-full">
                     Bachelors in Architecture (B.Arch) <br/>DIT University, UTU -
                     2017 <br/>Masters in Disaster Mitigation & Management (M.Tech)<br/>  IIT Roorkee - 2021 
@@ -40,7 +37,7 @@ const AboutPeople = () => {
               </div>
             </div>
             <div className=" flex items-center w-full justify-center">
-              <h1 className="font-bold sm:w-2/3 w-full text-center just text-white mt-[10px] text-[16px] font-mainFamily">
+              <h1 className="font-normal sm:w-2/3 w-full text-center just text-white sm:text-[20px] mt-[10px] text-[16px] font-secondaryFamily">
                 Sooraj Sharma's journey redefines architectural boundaries. His
                 designs encapsulate innovation, transforming concepts into
                 remarkable structures. He's a guiding force in design.
@@ -60,7 +57,7 @@ const AboutPeople = () => {
                 <h1 className="font-bold text-white mt-[10px] text-[24px]">
                   Srishti Vats
                 </h1>
-                <div className="w text-skin text-center mt-[10px] text-[10px]">
+                <div className="font-light text-skin text-center mt-[10px] sm:text-[14px] text-[10px]">
                   <p className="w-full">
                     Bachelors in Architecture (B.Arch) <br/>DIT University, UTU -
                     2017 <br/> International Masters in Interior Architecture and
@@ -70,7 +67,7 @@ const AboutPeople = () => {
               </div>
             </div>
             <div className=" flex items-center justify-center ">
-              <h1 className="font-bold sm:w-2/3 w-full text-center just text-white mt-[10px] text-[16px] font-mainFamily">
+              <h1 className="font-normal sm:w-2/3 w-full text-center just text-white mt-[10px] sm:text-[20px] text-[16px] secondaryFamily">
                 Srishti Vats infuses spaces with her gift for interior design.
                 Her understanding of form and function creates captivating,
                 soulful environments. She orchestrates experiences.
