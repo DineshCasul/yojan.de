@@ -100,7 +100,7 @@ export const ContactEmail = ({ isSuccess, setIsSuccess = () => {} }) => {
           </div>
           <div className="flex items-center flex-col justify-center mt-[5px]">
             <button
-              className="text-white p-[4px] w-[30%] sm:w-[8%] sm:text-[18px] text-[14px] font-normal bg-black rounded hover:bg-brown"
+              className="text-white p-[4px] w-[30%] sm:w-[12%] sm:text-[18px] text-[14px] font-normal bg-black rounded hover:bg-brown"
               type="submit"
               value="Send"
             >
