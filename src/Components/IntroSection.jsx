@@ -4,9 +4,9 @@ const IntroSection = ({scrollPos}) => {
   const floatingWords = [
     "design.",
     "architecture.",
-    "interior designing.",
+    "visualization.",
   ]
-  const colorArray = ["#F0E8D5", "#997337", "#703E32", 'black', 'white'];
+  const colorArray = ["","#703E32", "#997337", '#F0E8D5', 'white'];
   const [backgroundColor, setBackgroundColor] = useState("#F0E8D5");
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   
@@ -44,7 +44,7 @@ const IntroSection = ({scrollPos}) => {
                 >
                   <h1
                     key={index + Math.random()}
-                    className={`absolute tracking-widest text-white one text-[24px] sm:text-[140px] z-1 ${
+                    className={`absolute tracking-widest  ${currentImageIndex == 0 ?  `text-darkSkin` : currentImageIndex == 1 ?  `text-skin` : currentImageIndex == 2 ?  `text-black` : 'text-white'} one text-[24px] sm:text-[140px] z-1 ${
                       index === currentImageIndex ? "active  " : "inactive"
                     }`}
                   >
