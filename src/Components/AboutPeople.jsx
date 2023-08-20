@@ -47,7 +47,7 @@ const AboutPeople = () => {
               </h1>
             </div>
           </div>
-          <div className=" founder-srishti sm:mt-[0px] mt-[20px] flex w-full items-center justify-center flex-col">
+          <div className=" founder-srishti sm:mt-[0px] mt-[30px] flex w-full items-center justify-center flex-col">
             <div className="w-full flex flex-col items-center justify-center  sm:h-full h-auto">
               <div className="w-32 h-32 rounded-full overflow-hidden">
                 <img
