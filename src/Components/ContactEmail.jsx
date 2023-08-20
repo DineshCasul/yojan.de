@@ -49,7 +49,7 @@ export const ContactEmail = ({ isSuccess, setIsSuccess = () => {} }) => {
       <div className="sm:h-5/6 sm:w-full flex justify-center flex-col items-center shadow-brown ">
         <div className="flex flex-col w-auto  items-start justify-start py-[12px]">
         
-          <h1 className="sm:text-[100px] font-mainFamily text-[40px] text-white font-bold">
+          <h1 className="sm:text-[100px] font-mainFamily hiddenn text-[40px] text-white font-bold">
             Get in touch!
           </h1>
           <h1 className="sm:text-[20px] font-mainFamily mb-[20px] text-[10px] text-white font-bold">

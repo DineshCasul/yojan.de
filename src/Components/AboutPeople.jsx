@@ -14,7 +14,7 @@ const AboutPeople = () => {
         <h1 className="sm:text-[20px] text-[10px] text-white font-bold font-mainFamily">
           is
         </h1>
-        <div className="founder-details sm:mt-[30px] mt-[10px] hiddenn sm:flex-row flex-col flex items-center justify-center w-full">
+        <div className="founder-details sm:mt-[30px] mt-[10px] sm:flex-row flex-col flex items-center justify-center w-full">
           <div className=" founder-sooraj flex w-full items-center justify-center flex-col">
             <div className="a flex flex-col items-center justify-center sm:h-full h-auto">
               <div className="w-32 h-32 rounded-full overflow-hidden">
